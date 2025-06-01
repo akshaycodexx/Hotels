@@ -81,6 +81,7 @@ router.put('/:id', async (req, res) => {
         res.status(500).json({ error: "Internal server issue" }); // ✅ Fixed typo
     }
 });
+// delete route
 
 router.delete('/:id',async(req,res)=>{
     try{
