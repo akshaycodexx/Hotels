@@ -61,7 +61,7 @@ router.get("/:workType",async (req,res)=>{
     }
 })
 
-
+//for update
 router.put('/:id', async (req, res) => {
     try {
         const personId = req.params.id;
